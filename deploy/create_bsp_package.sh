@@ -89,7 +89,7 @@ fi
 
 # Global variables
 # TODO: make build dir path generic and not hard coded
-BUILD_DIR=/nfs/bsp/bsp-imx8mp-zeus/var-fsl-yocto/build
+BUILD_DIR=/nfs/bsp/bsp-imx8mp-kirkstone/var-fsl-yocto/build
 BSP_IMAGE_NAME=fsl-image-qt5
 BSP_MACHINE_NAME=imx8mp-var-dart-aion
 UBOOT_FILE=imx-boot-sd.bin

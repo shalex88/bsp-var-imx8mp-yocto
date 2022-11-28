@@ -1,9 +1,9 @@
-# bsp-var-imx8mp-zeus
+# bsp-var-imx8mp-kirkstone
 
 ## Download
 
 ```bash
-git clone https://github.com/shalex88/bsp-var-imx8mp-yocto.git -b zeus bsp-var-imx8mp-zeus
+git clone https://github.com/shalex88/bsp-var-imx8mp-yocto.git -b kirkstone bsp-var-imx8mp-kirkstone
 ```
 
 ## Build
@@ -30,7 +30,7 @@ git clone https://github.com/shalex88/bsp-var-imx8mp-yocto.git -b zeus bsp-var-i
 
 ```bash
 cd var-fsl-yocto
-MACHINE=imx8mp-var-dart DISTRO=fsl-imx-xwayland . var-setup-release.sh -b build
+MACHINE=imx8mp-var-dart DISTRO=fslc-xwayland . var-setup-release.sh build
 ```
 
 ### 5. Setup build environment

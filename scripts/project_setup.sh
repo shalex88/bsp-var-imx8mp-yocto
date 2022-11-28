@@ -9,7 +9,6 @@ ln -sf ../../../scripts/site.conf site.conf
 # Disable sanity test preventing building on nfs
 touch sanity.conf
 
-# Add Hailo layers
 echo -E '
 BBLAYERS += "${BSPDIR}/sources/meta-hailo/meta-hailo-accelerator"
 BBLAYERS += "${BSPDIR}/sources/meta-hailo/meta-hailo-libhailort"

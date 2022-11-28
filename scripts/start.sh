@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 hostname=${PWD##*/}
-container="bsp-var-imx8mp-zeus"
+container="bsp-var-imx8mp-kirkstone"
 tag="1.0"
 
 usage()
